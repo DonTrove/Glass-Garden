@@ -34,7 +34,7 @@ const PRODUCTS_SHEET = 'Products';
 const ORDERS_SHEET   = 'Orders';
 
 function getSpreadsheet() {
-  return SpreadsheetApp.openById(1OjKdMTld3AqFpBwfn8GPouuDiIWwTEPXaUpYYEJl9OU);
+  return SpreadsheetApp.openById('1OjKdMTld3AqFpBwfn8GPouuDiIWwTEPXaUpYYEJl9OU');
 }
 
 // ══ doGet ════════════════════════════════════════════════════════════════════
