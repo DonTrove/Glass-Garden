@@ -7,7 +7,7 @@
  */
 
 const CONFIG = {
-  SHEET_URL:    "YOUR_NEW_GOOGLE_APPS_SCRIPT_URL_HERE",  // ← paste your new deployed URL
+  SHEET_URL:    "https://script.google.com/macros/s/AKfycbxTEwlTZ-qRXpB-KdnQg8SB8SNSTrxYMiKexmv8x044_aZj9D_2jnTVBZdKqVJObT3VqQ/exec",  // ← paste your new deployed URL
   DELIVERY_FEE: 200,
   GIFT_WRAP:    300,
 };
