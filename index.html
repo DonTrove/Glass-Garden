@@ -4,7 +4,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="Don Trove — Thoughtfully curated gifts for every occasion, wrapped in elegance, delivered with care."/>
-  <title>Don Trove — Curated Gifts</title>
+  <title>Glass Garden</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link rel="preconnect" href="https://i.ibb.co" crossorigin/>
@@ -23,7 +23,7 @@
         <div id="catTabs"></div>
       </div>
     </div>
-    <a class="brand" href="#"><span>Le Tresor De </span><i>Misfah</i></a>
+    <a class="brand" href="#"><span>Categories</a>
   </div>
   <nav>
     <button class="nav-btn about-btn" onclick="showView('about')">About ✦</button>
@@ -46,18 +46,17 @@
     <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
       <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
     </svg>
-    <input class="search-bar" id="searchInput" type="text" placeholder="Search gifts…" oninput="filterProducts()">
+    <input class="search-bar" id="searchInput" type="text" placeholder="Search …" oninput="filterProducts()">
   </div>
 </div>
 
 <!-- ══ SHOP VIEW ══ -->
 <div class="view active" id="view-shop">
   <p class="section-title">Our Collection</p>
-  <p class="section-sub">Each gift is carefully selected to delight the ones you love</p>
   <div id="productsGrid" class="products-grid">
     <div class="loading-wrap">
       <div class="spinner"></div>
-      <p>Loading beautiful gifts…</p>
+      <p>Loading our Products…</p>
     </div>
   </div>
 </div>
@@ -75,7 +74,7 @@
       <div class="wrap-option">
         <label>
           <input type="checkbox" id="giftWrapCheck" onchange="updateSummary()"/>
-          🎁 Premium Gift Wrapping — PKR 300
+          Premium  Packing — PKR 300
         </label>
       </div>
       <div class="summary-row"><span>Delivery Fee</span><span id="summDelivery">PKR 200</span></div>
@@ -167,11 +166,11 @@
   <div class="success-view">
     <div class="success-icon">✦</div>
     <h2>Order Placed!</h2>
-    <p>Thank you for shopping with Don Trove.</p>
+    <p>Thank you for shopping with Glass Garden.</p>
     <p>Your reference number is:</p>
     <div class="order-ref-badge" id="successRef">DT-000000</div>
     <p class="success-note">
-      We'll contact you shortly to confirm your order. Expect your gift to arrive beautifully wrapped and right on time. 🌿
+      We'll contact you shortly to confirm your order. Expect your order to arrive right on time. 🌿
     </p>
     <button class="back-shop-btn" onclick="resetAll()">Continue Shopping</button>
   </div>
@@ -201,28 +200,28 @@
   <div class="about-wrap">
     <div class="about-hero-card">
       <div class="about-sparkles">✦ ✦ ✦</div>
-      <h2 class="about-title">Hello, Beautiful Soul! 🌿</h2>
-      <p class="about-subtitle">Welcome to <em>Le Tresor de Misfah</em> — your treasure chest of joy, wrapped with love.</p>
+      <h2 class="about-title">Hello, Nature Lovers! 🌿</h2>
+      <p class="about-subtitle">Welcome to <em>Glass Garden</em> — where tiny worlds meet endless wonder.</p>
     </div>
     <div class="about-card">
-      <div class="about-card-icon">💌</div>
+      <div class="about-card-icon">🪴</div>
       <h3 class="about-card-title">Our Little Story</h3>
       <p class="about-card-text">
-        Don Trove was born from one simple belief — that every gift should feel like a warm hug.
-        We pour our hearts into curating treasures that say <em>"I thought of you"</em> louder than words ever could.
-        Whether it's a birthday, an anniversary, or just a random Tuesday that deserves some sparkle —
-        we've got something just for you. 🎀
+        Glass Garden was born from a love of nature and a desire to bring it closer to you.
+        We handcraft each terrarium with care — selecting every plant, stone, and mossy detail
+        to create a living, breathing miniature world. Whether it's for your desk, your home,
+        or someone you love — we make something that says <em>"I brought you a little peace."</em> 🌱
       </p>
     </div>
     <div class="about-card about-card-pink">
       <div class="about-card-icon">🫶</div>
       <h3 class="about-card-title">A Note from Us to You</h3>
       <p class="about-card-text">
-        Thank you for being here. Every order you place carries a little piece of our love with it.
-        We don't just sell gifts — we craft moments, memories, and smiles.
-        You are the reason we do what we do, and we are so grateful for every single one of you. 💕
+        Thank you for being here. Every terrarium we create carries a piece of our passion with it.
+        We don't just sell plants in glass — we craft calm, beauty, and living memories.
+        You are the reason we do what we do, and we are so grateful for every single one of you. 🌿
       </p>
-      <div class="about-signature">With all our love,<br/><strong>Misfah &amp; the Don Trove Family 🌿</strong></div>
+      <div class="about-signature">With love & green thumbs,<br/><strong>The Glass Garden Family 🌿</strong></div>
     </div>
     <div class="about-contact-row">
       <a href="mailto:misfahcreations@gmail.com" class="about-contact-card">
@@ -234,18 +233,17 @@
       <a href="https://www.instagram.com/don.trove/" target="_blank" rel="noopener" class="about-contact-card about-contact-insta">
         <div class="about-contact-icon">📸</div>
         <div class="about-contact-label">Follow Along</div>
-        <div class="about-contact-value">@don.trove</div>
+        <div class="about-contact-value">@glassgarden</div>
         <div class="about-contact-cta">See our world →</div>
       </a>
     </div>
     <div class="about-signoff">
       <div class="about-sparkles">✦ ✦ ✦</div>
-      <p>Made with love &amp; a sprinkle of magic ✨</p>
-      <button class="back-shop-btn" onclick="goHome()" style="margin-top:20px;">Shop the Collection 🛍️</button>
+      <p>Handcrafted with love &amp; a touch of nature ✨</p>
+      <button class="back-shop-btn" onclick="goHome()" style="margin-top:20px;">Shop the Collection 🌿</button>
     </div>
   </div>
 </div>
-
 <!-- ══ TOAST ══ -->
 <div class="toast" id="toast" role="alert" aria-live="polite"></div>
 
