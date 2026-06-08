@@ -28,13 +28,13 @@
  */
 
 // ⚠️  REPLACE THIS with your new Google Sheet's ID
-const SPREADSHEET_ID = 'YOUR_NEW_SPREADSHEET_ID_HERE';
+const SPREADSHEET_ID = '1OjKdMTld3AqFpBwfn8GPouuDiIWwTEPXaUpYYEJl9OU';
 
 const PRODUCTS_SHEET = 'Products';
 const ORDERS_SHEET   = 'Orders';
 
 function getSpreadsheet() {
-  return SpreadsheetApp.openById(SPREADSHEET_ID);
+  return SpreadsheetApp.openById(1OjKdMTld3AqFpBwfn8GPouuDiIWwTEPXaUpYYEJl9OU);
 }
 
 // ══ doGet ════════════════════════════════════════════════════════════════════
