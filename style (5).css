@@ -109,7 +109,7 @@ nav { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
 
 /* ══ HERO ══ */
 .hero {
-  background: url('BG.png') center center / cover no-repeat;
+  background: url('HBG.png') center center / cover no-repeat;
   position: relative;
   overflow: hidden;
   width: 100%;
